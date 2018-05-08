@@ -1,19 +1,14 @@
-import * as React from 'react';
-import './App.css';
+import { Product, productFactory } from "@my-project/core";
+import * as React from "react";
 
-import logo from './logo.svg';
+import "./App.css";
 
 class App extends React.Component {
   public render() {
+    const exampleProduct: Product = productFactory.createProduct();
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        Example random product name is {exampleProduct.name}
       </div>
     );
   }

@@ -1,2 +1,2 @@
-export { Product } from '@src/products/product.model';
-export { productFactory } from '@src/products/product.factory'; 
+export { Product } from './products/product.model';
+export { productFactory } from './products/product.factory'; 

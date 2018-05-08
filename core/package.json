@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "webpack -w"
   },
-  "typings": "./dist/src/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "author": "",
   "license": "ISC",
   "dependencies": {

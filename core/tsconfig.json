@@ -9,11 +9,7 @@
     "sourceMap": true,
     "declaration": true,
     "baseUrl": "./",
-    "paths": {
-      "@src/*": [
-        "./src/*"
-      ]
-    },
+    "outDir": "./"
   },
   "files": [
     "./src/index.ts"

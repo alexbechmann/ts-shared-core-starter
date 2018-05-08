@@ -1,4 +1,4 @@
-import { Product } from "@src/products/product.model";
+import { Product } from "./product.model";
 
 const names = ["TV", "Trainers", "Car", "T-Shirt"];
 
