@@ -8,11 +8,10 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
-    "outDir": "dist",
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
       "@src/*": [
-        "./*"
+        "./src/*"
       ]
     },
   },
