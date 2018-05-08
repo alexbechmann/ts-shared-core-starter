@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "prettier:test",
+    "test": "npm run prettier:test",
     "core:install": "cd ./core && npm ci",
     "core:build": "cd ./core && npm run build",
     "core:start": "cd ./core && npm start",
